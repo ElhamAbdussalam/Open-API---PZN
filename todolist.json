@@ -1,6 +1,20 @@
 {
   "openapi": "3.0.3",
-  "info": {},
+  "info": {
+    "title": "Todolist RESTful API",
+    "version": "1",
+    "description": "OpenAPI for Todolist RESTful API",
+    "termsOfService": "https://elhamabdussalam.vercel.app/home",
+    "contact": {
+      "name": "M Elham Abdussalam",
+      "email": "abdussalamelham@gmail.com",
+      "url": "https://elhamabdussalam.vercel.app/home"
+    },
+    "license": {
+      "name": "APACHE 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  },
   "servers": [],
   "paths": {}
 }
