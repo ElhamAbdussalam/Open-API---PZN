@@ -28,5 +28,9 @@
       }
     }
   ],
+  "externalDocs": {
+    "description": "Apalah Ini",
+    "url": "https://github.com/ElhamAbdussalam"
+  },
   "paths": {}
 }
