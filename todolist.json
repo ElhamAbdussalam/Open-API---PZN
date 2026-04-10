@@ -32,5 +32,14 @@
     "description": "Apalah Ini",
     "url": "https://github.com/ElhamAbdussalam"
   },
-  "paths": {}
+  "paths": {
+    "/todolist": {
+      "get": {},
+      "post": {}
+    },
+    "/todolist/{todolistId}": {
+      "put": {},
+      "delete": {}
+    }
+  }
 }
