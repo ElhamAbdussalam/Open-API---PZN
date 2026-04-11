@@ -59,6 +59,16 @@
               "nullable": true,
               "minLength": 1,
               "maxLength": 100
+            },
+            "examples": {
+              "java": {
+                "description": "Example for Java",
+                "value": "java"
+              },
+              "php": {
+                "description": "Example for PHP",
+                "value": "php"
+              }
             }
           }
         ],
@@ -96,6 +106,24 @@
                     }
                   }
                 }
+              },
+              "examples": {
+                "java": {
+                  "description": "Example create todolist Java",
+                  "value": {
+                    "name": "Java",
+                    "priority": 3,
+                    "tags": ["Java", "Programming"]
+                  }
+                },
+                "php": {
+                  "description": "Example create todolist Php",
+                  "value": {
+                    "name": "PHP",
+                    "priority": 5,
+                    "tags": ["PHP", "Programming"]
+                  }
+                }
               }
             }
           }
@@ -118,6 +146,16 @@
               "type": "string",
               "minLength": 1,
               "maxLength": 100
+            },
+            "examples": {
+              "java": {
+                "description": "Sample todolist id for Java",
+                "value": "1"
+              },
+              "php": {
+                "description": "Sample todolist id for PHP",
+                "value": "2"
+              }
             }
           }
         ],
@@ -147,6 +185,24 @@
                       "type": "string",
                       "minLength": 1
                     }
+                  }
+                }
+              },
+              "examples": {
+                "java": {
+                  "description": "Example create todolist Java",
+                  "value": {
+                    "name": "Java",
+                    "priority": 3,
+                    "tags": ["Java", "Programming"]
+                  }
+                },
+                "php": {
+                  "description": "Example create todolist Php",
+                  "value": {
+                    "name": "PHP",
+                    "priority": 5,
+                    "tags": ["PHP", "Programming"]
                   }
                 }
               }
